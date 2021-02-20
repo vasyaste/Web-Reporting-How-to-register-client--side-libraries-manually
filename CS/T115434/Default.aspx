@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="T115434.Default" %>
 
-<%@ Register Assembly="DevExpress.XtraReports.v16.2.Web, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -33,7 +33,6 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Use the <b>bower install</b> command in the project folder to download the client-side libraries.
         <dx:ASPxReportDesigner ID="ASPxReportDesigner1" runat="server">
         </dx:ASPxReportDesigner>
     </div>

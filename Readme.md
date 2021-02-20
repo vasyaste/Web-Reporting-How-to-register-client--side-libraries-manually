@@ -7,7 +7,7 @@ This example demonstrates how to include both the **Third\-Party** and **DevExtr
 - [knockout 3.3.0+](http://knockoutjs.com/)  (versions 3.5.0 and higher are not supported)
 - [ace.js 1.1.9](http://ace.c9.io/) (required for the [Web Report Designer](https://documentation.devexpress.com/#XtraReports/CustomDocument17103) only, should include ***ext\-language\_tools*** script)  
 
-To register these libraries on the web page manually download and put them to the Scripts folder first. In this example we used the [Bower](https://bower.io/) package manager for this purpose. Use the `bower install` command in the project folder to download the client-side libraries before running the project.
+To register these libraries on the web page you need to download and put them to your web application folder first. In this example we used the [Bower](https://bower.io/) package manager for this purpose. Use the `bower install` command in the project folder to download the client-side libraries before running the project.
 
 Then register an empty "resources" section in your Web.config file to disable the automatic registration:    
 ```xml  
