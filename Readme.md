@@ -4,7 +4,8 @@ This example demonstrates how to include both the **Third\-Party** and **DevExtr
 - [jQuery 1.11.3+](http://jquery.com/)  
 - [jQuery UI 1.10.3+](http://jqueryui.com/) (should include ***core***, ***widget***, ***mouse***, ***draggable***, ***resizable***, ***selectable*** modules, both JavaScript and CSS files)  
 - [globalize v0.1.0](https://github.com/jquery/globalize) (Newer versions are not supported)  
-- [knockout 3.0.0+](http://knockoutjs.com/)  (versions 3.5.0 and higher are not supported)
+- [knockout 3.3.0+](http://knockoutjs.com/)  (versions 3.5.0 and higher are not supported)
+- [ace.js 1.1.9](http://ace.c9.io/) (required for the [Web Report Designer](https://documentation.devexpress.com/#XtraReports/CustomDocument17103) only, should include ***ext\-language\_tools*** script)  
 
 To register these libraries on the web page manually download and put them to the Scripts folder first. Then register them in the HTML page header section by using `<script\>` tags. **Note** that the order in which scripts are registered is important.  
 
