@@ -7,7 +7,10 @@
 <head runat="server">
     <title></title>
     <script src="Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+
+    <link href="Content/jquery-ui.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+
     <script src="Scripts/globalize.js" type="text/javascript"></script>
     <script src="Scripts/knockout-3.0.0.js" type="text/javascript"></script>
 </head>
